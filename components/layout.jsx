@@ -3,7 +3,7 @@ import Link from "next/link";
 function Layout({ children }) {
   return (
     <div class="flex flex-col w-full items-center">
-      <nav class="flex flex-row justify-between items-center p-4 bg-gradient-to-r from-green-400 to-blue-500  w-full">
+      <nav class="flex flex-row justify-between items-center p-4 bg-gradient-to-r from-blue-400 to-purple-500  w-full">
         <Hero height={50} width={50} />
         <ul class="flex flex-row space-x-2">
           <li>
