@@ -1,5 +1,4 @@
 import Link from "next/link";
-import TailwindButton from "../components/TailwindButton";
 
 function AboutMe() {
   return (
@@ -75,12 +74,6 @@ function AboutMe() {
           </Link>
         </li>
       </ul>
-
-      <Link href="/">
-        <a>
-          <TailwindButton>Home</TailwindButton>
-        </a>
-      </Link>
     </>
   );
 }
