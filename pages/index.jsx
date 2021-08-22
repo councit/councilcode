@@ -6,7 +6,12 @@ function HomePage() {
       <h3>Code Council</h3>
       <Link href="/posts/reacttesting">
         <a>
-          <TailWindButton />
+          <TailWindButton location="React Testing" />
+        </a>
+      </Link>
+      <Link href="/aboutme">
+        <a>
+          <TailWindButton location="About Me" />
         </a>
       </Link>
     </div>
