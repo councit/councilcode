@@ -4,16 +4,16 @@ function Layout({ children }) {
   return (
     <div class="flex flex-col w-full items-center">
       <nav class="flex flex-row justify-between items-center p-4 bg-gradient-to-r from-blue-400 to-purple-500  w-full">
-        <Hero height={50} width={50} />
-        <ul class="flex flex-row space-x-2">
+        <Link href="/">
+          <a>
+            <Hero height={50} width={50} />
+          </a>
+        </Link>
+
+        <ul class="flex  space-x-2 flex-row">
           <li>
             <Link href="/aboutme">
-              <a>About Me</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/">
-              <a>Home</a>
+              <a class="font-semibold text-white">About Me</a>
             </Link>
           </li>
         </ul>
