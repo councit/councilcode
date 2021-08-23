@@ -9,7 +9,7 @@ function Layout({ children }) {
             <Hero height={50} width={50} />
           </a>
         </Link>
-        <h1 class="text-2xl font-bold text-white">Code Council</h1>
+        <h1 class="text-2xl font-bold text-white">Council Code</h1>
         <ul class="flex  space-x-2 flex-row">
           <li>
             <Link href="/aboutme">
